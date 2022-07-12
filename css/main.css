@@ -1,0 +1,446 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+*{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+
+body{
+    margin: 0;
+    font-family: "inter","Aria", sans-serif;
+    font-weight: 500;
+    font-size: normal;
+}
+
+
+.container{
+    width: 1150px;
+    margin: 0 auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    -webkit-clip-path: inset(50%);
+            clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+
+
+/* inter-regular - latin */
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/inter-v11-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/inter-v11-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* inter-600 - latin */
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/inter-v11-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/inter-v11-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* inter-500 - latin */
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/inter-v11-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/inter-v11-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* inter-700 - latin */
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/inter-v11-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/inter-v11-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color:  #f1f4ff;
+}
+
+.site-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.learn-by-watching {
+    width: 570px;
+    height: 640px;
+    margin-right: 12px;
+    border-radius: 20px;
+    background-image: url("../kartinki/code.jpg");
+}
+.learn-by-watching-inner-wrapper{
+    
+    padding-top: 55px;
+    padding-right: 121px;
+    padding-left: 60px;
+}
+.frontend-and-backend {
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    padding: 5px 15px;
+    color: #ffffff;
+    opacity: 0.8;
+    border: 1px solid #ffffff;
+    border-radius: 41px;
+}
+.learn-by-watching-title {
+    width: 380px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    margin-top: 60px;
+    margin-bottom: 25px;
+    color: #ffffff;
+}
+.learn-by-watching-text {
+    width: 347px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 0;
+    margin-bottom: 211px;
+    color: #ffffff;
+}
+.learn-by-watching-link {
+    display: block;
+    width: 570px;
+    height: 80px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 28px 125px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #4dc490;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.site-form {
+    padding: 55px 82px 40px 60px;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+.site-form-title{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+    margin-top: 0;
+    margin-bottom: 79px;
+    color: #000000;
+}
+
+.site-inner-form-label{
+    display: block;
+    margin-bottom: 35px;
+    text-align: end;
+}
+
+.site-inner-form-name {
+    width: 450px;
+    height: 33px;
+    display: block;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    outline: none;
+    margin-bottom: 4px;
+    padding-bottom: 16px;
+    border: 0;
+    border-bottom: 1px solid #555555;
+}
+
+.site-inner-form-name:focus{
+    border-bottom: 1px solid #000000;
+}
+
+.site-inner-form-name::-webkit-input-placeholder{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #555555;
+}
+
+.site-inner-form-name::-moz-placeholder{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #555555;
+}
+
+.site-inner-form-name:-ms-input-placeholder{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #555555;
+}
+
+.site-inner-form-name::-ms-input-placeholder{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #555555;
+}
+
+.site-inner-form-name::placeholder{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #555555;
+}
+
+.site-inner-form-name:not(:-moz-placeholder-shown):not(:focus):invalid ~ .site-form-invalid{
+    display: block;
+}
+
+.site-inner-form-name:not(:-ms-input-placeholder):not(:focus):invalid ~ .site-form-invalid{
+    display: block;
+}
+
+.site-inner-form-name:not(:placeholder-shown):not(:focus):invalid ~ .site-form-invalid{
+    display: block;
+}
+.site-inner-form-name:not(:-moz-placeholder-shown):not(:focus):invalid{
+    color: #F03535;;
+    border-bottom: 1px solid #F03535;;
+}
+.site-inner-form-name:not(:-ms-input-placeholder):not(:focus):invalid{
+    color: #F03535;;
+    border-bottom: 1px solid #F03535;;
+}
+.site-inner-form-name:not(:placeholder-shown):not(:focus):invalid{
+    color: #F03535;;
+    border-bottom: 1px solid #F03535;;
+}
+
+.site-inner-form-name:not(:-moz-placeholder-shown):not(:focus):invalid ~ .site-form-invalid{
+    display: inline-block;
+    opacity: 1;
+}
+
+.site-inner-form-name:not(:-ms-input-placeholder):not(:focus):invalid ~ .site-form-invalid{
+    display: inline-block;
+    opacity: 1;
+}
+
+.site-inner-form-name:not(:placeholder-shown):not(:focus):invalid ~ .site-form-invalid{
+    display: inline-block;
+    opacity: 1;
+}
+
+.site-inner-form-email {
+    width: 450px;
+    height: 33px;
+    display: block;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    margin-bottom: 4px;
+    padding-bottom: 16px;
+    caret-color: #000000;
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid #555555;;
+}
+
+.site-inner-form-email:focus{
+    border-bottom: 1px solid #000000;
+}
+
+.site-inner-form-email::-webkit-input-placeholder{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #555555;
+}
+
+.site-inner-form-email::-moz-placeholder{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #555555;
+}
+
+.site-inner-form-email:-ms-input-placeholder{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #555555;
+}
+
+.site-inner-form-email::-ms-input-placeholder{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #555555;
+}
+
+.site-inner-form-email::placeholder{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #555555;
+}
+
+.site-inner-form-email:not(:-moz-placeholder-shown):not(:focus):invalid ~ .site-form-invalid{
+    display: block;
+}
+
+.site-inner-form-email:not(:-ms-input-placeholder):not(:focus):invalid ~ .site-form-invalid{
+    display: block;
+}
+
+.site-inner-form-email:not(:placeholder-shown):not(:focus):invalid ~ .site-form-invalid{
+    display: block;
+}
+
+.site-inner-form-email:not(:-moz-placeholder-shown):not(:focus):invalid ~ .site-form-invalid{
+    display: inline-block;
+    opacity: 1;
+}
+
+.site-inner-form-email:not(:-ms-input-placeholder):not(:focus):invalid ~ .site-form-invalid{
+    display: inline-block;
+    opacity: 1;
+}
+
+.site-inner-form-email:not(:placeholder-shown):not(:focus):invalid ~ .site-form-invalid{
+    display: inline-block;
+    opacity: 1;
+}
+.site-inner-form-password {
+    width: 450px;
+    height: 33px;
+    display: block;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    margin-bottom: 4px;
+    padding-bottom: 16px;    
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid #555555;
+}
+
+.site-inner-form-password:focus{
+    border-bottom: 1px solid #000000;
+}
+
+.site-inner-form-password::-webkit-input-placeholder{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #555555;
+}
+
+.site-inner-form-password::-moz-placeholder{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #555555;
+}
+
+.site-inner-form-password:-ms-input-placeholder{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #555555;
+}
+
+.site-inner-form-password::-ms-input-placeholder{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #555555;
+}
+
+.site-inner-form-password::placeholder{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #555555;
+}
+
+.site-inner-form-password:not(:-moz-placeholder-shown):not(:focus):invalid ~ .site-form-invalid{
+    display: inline-block;
+    opacity: 1;
+}
+
+.site-inner-form-password:not(:-ms-input-placeholder):not(:focus):invalid ~ .site-form-invalid{
+    display: inline-block;
+    opacity: 1;
+}
+
+.site-inner-form-password:not(:placeholder-shown):not(:focus):invalid ~ .site-form-invalid{
+    display: inline-block;
+    opacity: 1;
+}
+
+.site-form-invalid{
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;   
+    color: #F03535;
+    opacity: 0;
+}
+
+
+
+.site-inner-form-button {
+    font-family: 'Inter';
+    width: 450px;
+    height: 59px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 8px;
+    color: #ffffff;
+    background: #655af2;
+    border-radius: 10px;
+    border: 0;
+}
+
+.site-inner-form-button:hover{
+    background-color: #3A2BF8;
+}
+
+.site-inner-form-p {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    color: #555555;
+    margin: 0;
+}
+.site-form-link {
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 15px;
+    text-decoration: none;
+    color: #f03535;
+}
