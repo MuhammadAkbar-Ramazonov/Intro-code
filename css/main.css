@@ -271,6 +271,11 @@ section{
     border-bottom: 1px solid #000000;
 }
 
+.site-inner-form-email:not(:placeholder-shown):not(:focus):invalid{
+    color: #F03535;;
+    border-bottom: 1px solid #F03535;;
+}
+
 .site-inner-form-email::-webkit-input-placeholder{
     font-weight: 400;
     font-size: 16px;
@@ -349,6 +354,11 @@ section{
 
 .site-inner-form-password:focus{
     border-bottom: 1px solid #000000;
+}
+
+.site-inner-form-password:not(:placeholder-shown):not(:focus):invalid{
+    color: #F03535;;
+    border-bottom: 1px solid #F03535;;
 }
 
 .site-inner-form-password::-webkit-input-placeholder{
